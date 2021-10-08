@@ -1,6 +1,10 @@
 #include <iostream>
+#include "CFG.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    CFG cfg("../../test1.json");
+    cfg.print();
     return 0;
 }
